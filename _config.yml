@@ -34,7 +34,7 @@ paginate: 20
 language: 'en-uk'
 # 言語設定
 
-url: https://sunchichi0229.github.io
+url: https://sunchichi0229.github.io/
 # Google Search Consoleで使用するsitemap.xmlを生成する時、
 # このurl keyの値が存在しなければ、sitemap.xmlが
 # 生成が出来なくなる
@@ -83,7 +83,7 @@ facebook:
 
 # Disqus
 disqus: True
-disqus_shortname: sunchichi0229-github-io
+disqus_shortname: https://sunchichi0229.github.io/
 # disqusはオンラインコメントシステム。コメント機能を使用するためには
 # disqus shortnameを入力 ( disqus usernameではない )
 
