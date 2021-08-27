@@ -1,0 +1,12 @@
+jekyll :
+  name: jekyll
+  description: False
+  cover: assets/built/images/snoopy.jpeg
+Python :
+  name: python
+  description: False
+  cover: assets/built/images/python.jpg
+economy :
+  name: economy
+  description: False
+  cover: assets/built/images/economy.jpg

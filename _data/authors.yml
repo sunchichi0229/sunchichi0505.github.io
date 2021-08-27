@@ -1,0 +1,11 @@
+sunchichi0229 :
+  username: sunchichi0229    # user name : martin
+  name: sunchichi0229        # user full name : Martin Luther King
+  url_full:             # Homepage url
+  url:
+  bio: <a href="https://github.com/sunchichi0229">スンちゃんのGITHUB</a>
+                        # 会社情報
+  picture: assets/built/images/favicon32.png   # author image
+  facebook:             # facebook ID
+  twitter:              # twitter ID
+  cover: False

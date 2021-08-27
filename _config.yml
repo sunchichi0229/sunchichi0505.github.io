@@ -1,0 +1,152 @@
+# Jekyll configuration
+markdown: kramdown
+# kramdown : markdownの改善版.
+# markdownからの不便な部分を改善した形態
+
+# MyData
+owner:
+  name:           sunchichi0505
+  avatar:         assets/built/images/favicon32.png
+  bio:            "Korean lives in Japan"
+  email:          sunchichi0505@gmail.com
+  # Social networking links used in footer. Update and remove as you like.
+  twitter:
+  facebook:
+  github:         https://github.com/sunchichi0229
+  stackexchange:
+  linkedin:
+  instagram:
+  flickr:
+  tumblr:
+  # google plus id, include the '+', eg +mmistakes
+  google_plus:
+
+highlighter: rouge
+# text highlighterとしてrougeを利用
+# 2016.02月以後、syntax highlighterはrougeだけを支援
+# Pygments使用不可
+
+paginate: 20
+# 作成したすべてのpostを一つのページに表紙することは難しいため、
+# paginationが必要で、いくつかのpostを一つのpageから
+# 表視させるかを設定
+
+language: 'en-uk'
+# 言語設定
+
+url: https://sunchichi0229.github.io
+# Google Search Consoleで使用するsitemap.xmlを生成する時、
+# このurl keyの値が存在しなければ、sitemap.xmlが
+# 生成が出来なくなる
+# またdisqus(コメントシステム)を使うためにも必要
+# 自分のgithub page urlを入力
+# ( https://your_github_id.github.io 形態)
+
+baseurl: /
+
+# Website info
+title: IT Industry Knowledge
+# 自分のblog title.
+
+description: IT業界知識のブログ
+# blog homeに表視されるblogに対する説明
+
+cover: assets/built/images/soho.jpeg
+# blog homeに表視されるblog cover image.
+
+logo:
+logo_dark:
+
+favicon: assets/built/images/favicon16.png
+# faviconで表視されるimage
+
+production_url: https://sunchichi0229.github.io
+# 最終的にblogが運営されるurl
+
+source_url: https://github.com/sunchichi0229/GitHubPageMaker/
+# blogmaker(jekyll source folder)に対するgithub repository
+
+# Social info
+navigation: True
+# Navigation bar linkを見せるか見せないかを決める
+
+subscribers: True
+# subscriber機能をするかを決める
+# 僕は少し修正してsubscriber機能の代わりに
+# lunr.jsを利用した検索機能にしました
+# 検索機能を利用するためには
+# `_includes/subscribe-form.html` ファイルの修正が必要です
+
+twitter:
+facebook:
+# もしtwitterとfacebookを利用すればusernameを入力
+
+# Disqus
+disqus: True
+disqus_shortname: sunchichi0229-github-io
+# disqusはオンラインコメントシステム。コメント機能を使用するためには
+# disqus shortnameを入力 ( disqus usernameではない )
+
+
+# Google Analytics
+google_analytics: UA-xxxxxxxx-x # replace with your GA tracking identifier
+# Google Analyticsを利用する場合、GA tracking identifierを入力
+
+# Permalinks
+permalink: /:title
+# permalink: /author/:author
+# permalink: /tag/:title
+# 各々のpostに固定のアドレスをどんな方法で分けるかを決定
+# この値を変更すると作成したポストの登録場所やファイル名が変更される
+
+# gems and other configs
+plugins: [jekyll-paginate, jekyll-feed, jekyll-gist]
+
+feed:
+  path: feed.xml
+
+# Travis-CI設定です
+safe: False
+lsi: False
+
+username: sunchichi0229
+repo: GitHubPageMaker
+# username : travis-ciと連動するgithubのusername
+# repo: travis-ciと連動するgithubのrepository名
+# https://github.com/<username>/<repository>
+
+branch: master
+# 使用するbranch名
+
+relative_source:
+
+destination: ../[GitHubPage]/
+# compileされた結果が生成するフォルダー
+# このフォルダーの中に僕らが運営するブログの内容がcompileされて入る
+# このフォルダーの中に内容をgithub repository(https://username.github.io)にpush
+# もしTravis-CIを利用するなら、この部分をgit submoduleで
+# github repository(https://username.github.io)につなげる
+
+
+# excludeはJekyll compileの際、destinationに含まれる必要が
+# ないことを表す (node_modulesと必要ないのは除く)
+exclude:
+  - README.md
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - changelog.md
+  - "*.Rmd"
+  - vendor
+  - .travis.yml
+  - node_modules
+  - assets/css
+  - assets/images
+  - _posts/angular
+  - _posts/et-cetera
+#  - _posts/python
+  - _posts/typescript
+#　- _posts/jekyll
+  - _posts/iot
+  - _posts/r
+#  - _posts/economy
