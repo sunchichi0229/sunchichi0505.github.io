@@ -11,4 +11,6 @@ subclass: 'post tag-jekyll'
 author: sunchichi0229
 ---
 
+{% include jekyll-table-of-contents.html %}
+
 これはJekyllです。

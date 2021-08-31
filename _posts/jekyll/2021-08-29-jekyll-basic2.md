@@ -11,6 +11,8 @@ subclass: 'post tag-jekyll'
 author: sunchichi0229
 ---
 
+{% include jekyll-table-of-contents.html %}
+
 <自らJekyllを作った場合><br>
   
 1. Githubに「Sign in」します。<br>    
