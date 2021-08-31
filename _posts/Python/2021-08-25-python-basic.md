@@ -15,22 +15,22 @@ author: sunchichi0229
 
 これはpython講座です。<br>
 
-<h3><足し算></h3><br>
+<h3><足し算><br>
 ex) 「1 + 2」を入力してからEnterキー<br><br>
 
-<h3><引き算></h3><br>
+<h3><引き算><br>
 ex) 「8 - 5」を入力してからEnterキー<br><br>
 
-<h3><掛け算></h3><br>
+<h3><掛け算><br>
 ex) 「1 * 2」を入力してからEnterキー<br><br>
 
-<h3><割り算></h3><br>
+<h3><割り算><br>
 ex) 「4 / 2」を入力してからEnterキー<br><br>
 
-<h3><余り>></h3><br>
+<h3><余り><br>
 ex) 「50 % 2」を入力してからEnterキー<br><br>
 
-<h3><取り分と余り></h3><br>
+<h3><取り分と余り><br>
 ex) 「divmod(50, 8)」を入力してからEnterキー<br><br>
 
 関数(function)はこのような計算を既に決めたものである。
