@@ -34,3 +34,13 @@ ex) 「50 % 2」を入力してからEnterキー<br><br>
 ex) 「divmod(50, 8)」を入力してからEnterキー<br><br>
 
 関数(function)はこのような計算を既に決めたものである。
+<br><br>
+<ol><h2>pythonの強み</h2> <br>
+
+<li>比較的に勉強しやすい言語</li>
+<li>interactive programmingが可能</li>
+<li>強いデータ分析Libraryが多い</li>
+<li>Open Source(無料)</li>
+<li>Rに比べて凡庸的な使用可能</li>
+<li>現在、人気がある言語</li>
+</ol>

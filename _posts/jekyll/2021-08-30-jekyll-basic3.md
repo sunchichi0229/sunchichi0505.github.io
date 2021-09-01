@@ -17,10 +17,10 @@ author: sunchichi0229
    
 1. Headers<br>
 ・Title:文書のタイトル<br>
-<span style="display:inline-box;background-color:lightgray;width:100px;height:50px;">
+<div style="display:inline-box;background-color:lightgray;width:150px;height:90px;">
     This is an H1   <br>
     =========
-</span>
+</div>
 <br>
 <h2>
     This is an H1<br>
@@ -29,10 +29,10 @@ author: sunchichi0229
 <br>
    
 ・Subtitle:文書のサブタイトル<br>
-<span style="display:inline-box;background-color:lightgray;width:100px;height:50px;">
+<div style="display:inline-box;background-color:lightgray;width:150px;height:90px;">
     This is an H2<br>
     ----------------
-</span>
+</div>
 <br>
 <h3>
 This is an H2<br>
