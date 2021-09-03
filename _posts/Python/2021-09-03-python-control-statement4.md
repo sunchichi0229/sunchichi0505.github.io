@@ -24,15 +24,16 @@ python functionのbodyには少なくとも一つ以上の文章が必要です�
 function名は必要に応じた「_」で分けている単語と共に小文字を原則として使います。<br>
 
 Python functionは大きく分けて２種類あります。<br>
-<li>ユーザー定義関数</li>
-<li>組み込み関数</li>
+<br>
+1.ユーザー定義関数<br>
+2.組み込み関数
 <br>
 
 本日は<ユーザー定義関数>の例文をいくつか紹介します。
 
-<h2><ユーザー定義関数></h2><br>
+<ユーザー定義関数><br>
 
-<div style="display:inline-box;background-color:lightgray;width:50vw;height:40vh;">
+<div style="display:inline-box;background-color:lightgray;width:50vw;height:45vh;">
 # python user define function<br>
 <br>
 def my_sum(a, b, c):<br>
