@@ -30,12 +30,11 @@ Pythonは多くの組み込み関数を提供します。これを通じて、�
     <li>str(x): 文字列に変換してreturn</li>
     <li>tuple(x): 繰り返し可能な要素を受け、tupleに変えてreturn</li>
     <li>type(x): 入力値のデータタイプをreturn</li>
-</ol>
-
+<br>
 
 <組み込み関数><br>
 
-<div style="display:inline-box;background-color:lightgray;width:50vw;height:45vh;">
+<div style="display:inline-box;background-color:lightgray;width:40vw;height:250vh;">
 
 print(dir({"key" : 100}))<br>
 print(dir([]))<br>
